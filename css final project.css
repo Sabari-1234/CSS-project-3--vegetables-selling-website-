@@ -1,0 +1,588 @@
+body{
+	margin: 0px;
+}
+header{
+	display: grid;
+	grid-template-columns: 65% auto auto auto auto;
+	position: sticky;
+	top: 0;
+	background-color: rgba(255,255,255,1);
+	width: 100vw;
+
+}
+.menuitems{
+	
+	position: relative;
+	top: 30%;
+	
+}
+.menuitems a{
+	font-family: 'Poppins', sans-serif;
+	color:  black;
+	font-weight:  600;
+	font-size:  14px;
+	text-decoration: none;
+}
+#buybutton{
+	font-family: 'Poppins', sans-serif;
+	font-size:  12px;
+	font-weight:  600;
+	color:  white;
+	background-color:  rgb(170, 210, 54);
+	padding:  9px 34px;
+	border-radius:  4px;
+	position: relative;
+	top: 20%;
+	border: none;
+}
+
+
+#section1{
+	width: 100vw;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	
+	justify-content: center;
+	
+	background-image : url("https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.dropdown{
+	width: 150px;
+	height: 100px;
+	font-family:  'Poppins', sans-serif;
+	border-top:  2px solid rgb(170, 210, 54);
+	background-color:  white;
+	box-shadow:  0 2px 5px #ccc;
+	display: grid;
+	grid-template-columns: auto;
+	justify-content: space-around;
+	padding: 20px;
+	display: none;
+	position: absolute;
+	right: 25%;
+	
+
+
+}
+
+.dropdown div{
+	text-align: center;
+	border-bottom: 1px solid black;
+
+
+}
+.dropdown a{
+	position: relative;
+	top: 5px;
+
+}
+header>div:nth-of-type(2):hover .dropdown:first-of-type ,header>div:nth-of-type(4):hover .dropdown:last-of-type{
+	display: grid;
+
+}
+#head{
+	font-family:  'Poppins', sans-serif;
+	font-size:  44px;
+	font-weight:  600;
+	letter-spacing:  8.8px;
+	line-height:  1.2;
+}
+#descrip{
+	font-family:  'Poppins', sans-serif;
+	font-size:  14px;
+	letter-spacing:  0.5px;
+	font-weight:  400;
+	color:  #8b8b99;
+}
+
+#header,#description{
+	text-align: center;
+
+
+
+}
+#description{
+	position: relative;
+	bottom: 80px;
+}
+	
+#step1{
+	background-color:  #5acda6;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	padding-top: 60%;
+}
+#step2{
+	background-color:   #91ac41;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	padding-top: 60%;
+
+}
+#step3{
+	background-color:  #e4b476;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	padding-top: 60%;
+
+}
+#step4{
+	background-color: #f69dad;
+	color: white;
+	text-align: center;
+	padding: 50px ;
+	padding-top: 60%;
+
+}
+
+
+#section2{
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+
+
+
+}
+.title{
+	font-family:  'Poppins', sans-serif;
+	font-weight:  600;
+	font-size:  24px;
+	
+}
+.text{
+	font-family:  'Poppins', sans-serif;
+	font-size:  14px;
+	letter-spacing:  0.5px;
+	line-height:  1.6;
+	
+	}
+	
+	#section2 i{
+		transform: scale(4,4);
+		margin-bottom: 20px;
+	}
+	#section2 i:hover{
+		transform: scale(5,5);
+	}
+#fressfood{
+	grid-area: a;
+	color:  #91ac41;
+	font-size:  24px;
+	font-family:  'Caveat', cursive;
+	margin:  0;
+	margin-top:  35px;
+
+}
+#ourveganstore{
+	grid-area: b;
+	font-family:  'Poppins', sans-serif;
+	font-size:  44px;
+	font-weight:  600;
+}
+#radish{
+	grid-area: c;
+	font-family:  'Poppins', sans-serif;
+	font-size:  16px;
+	font-weight:  500;
+	color:  #8b8b99;
+	letter-spacing:  0.5px;
+}
+#camera{
+	grid-area: d;
+	text-align: center;
+
+}
+#rocket{
+	grid-area: e;
+	text-align: center;
+
+}
+#twiter{
+	grid-area: f;
+	text-align: center;
+	
+}
+#message{
+	grid-area: g;
+	text-align: center;
+	
+}
+#empty1
+{grid-area: h;
+	width: 200px;
+}
+#empty2{
+	grid-area: i;
+	width: 200px;
+	
+}
+
+	#section3{
+	background-color:  #f7eee2;
+	width: 100vw;
+	height: 87vh;
+	display: grid;
+	grid-template-areas: 'a a a a a a ' 'b b b b b b' 'c c c c c c' ' h d e f g i';
+	grid-column-gap: 16px;
+	grid-template-rows: 12% 12% 12% 64%;
+
+}
+#section3 >p{
+	text-align: center;
+	margin: 0px;
+}
+#section3>p:first-of-type{
+	margin-top: 16px;
+}
+
+.icon1{
+	background-color:  #e3b375;
+	color: white;
+	border-radius: 80px;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	display: inline-block;
+	
+}
+#section3 i{
+	transform: scale(2,2);
+	position: relative;
+	top: 38%;
+
+}
+.head1{
+	font-family:  'Poppins', sans-serif;
+	font-size:  24px;
+	font-weight:  600;
+}
+.descrip1{
+	font-family:  'Poppins', sans-serif;
+	font-size:  16px;
+	letter-spacing:  0.5px;
+	font-weight:  500;
+	color:  #8b8b99;
+	
+}
+#section3 i:hover{
+	
+
+}
+.icon1:hover{
+	
+	transform: scale(1.2,1.2);
+}
+#freshfood1{
+	grid-area: j; 
+	color:  #91ac41;
+	font-size:  24px;
+	font-family:  'Caveat', cursive;
+	margin:  0;
+	margin-top:35px;
+	text-align: center;
+
+}
+#ourveganstore1{
+	grid-area: k; 
+	font-family:  'Poppins', sans-serif;
+	font-size: 44px;
+	font-weight: 600;
+	text-align: center;
+
+}
+#desc{
+	grid-area: l;
+	font-family:  'Poppins', sans-serif;
+	font-size:  16px;
+	font-weight:  500;
+	color:  #8b8b99;
+	letter-spacing:  0.5px;
+	text-align: center;
+	
+}
+#card1{
+	grid-area: m;
+
+}
+#card2{
+	grid-area: n;
+
+}
+#card3{
+	grid-area: o;
+
+}
+#emp1{
+	grid-area: p;
+	width: 100px;
+}
+#emp2{
+	grid-area: q;
+	width: 100px;
+}
+#section4{
+	display: grid;
+	grid-template-areas:'j j j j j' 'k k k k k' 'l l l l l' 'p m n o q';
+	width: 100vw;
+	height: 90vh;
+	grid-column-gap: 16px;
+	grid-template-rows: 5% 15% 15% 50%;
+}
+.img{
+	border-radius:  50%;
+	width: 80px;
+}
+.message{
+	font-family:  'Poppins', sans-serif;
+	font-size:  14px;
+	letter-spacing:  0.5px;
+	font-style:  Italic;
+	color:  #8b8b99;
+}
+.author{
+	font-family:  'Poppins', sans-serif;
+	font-size:  16px;
+	font-weight:  600;
+}
+.work{
+	font-family:  'Poppins', sans-serif;
+	font-size:  12px;
+	color:  #8b8b99;
+	font-style: Italic;
+
+}
+#card1,#card2,#card3{
+	background-color:  #f5f6fb;
+	border-top-left-radius:  45px;
+	border-bottom-left-radius:  45px;
+	border-bottom-right-radius:  45px;
+	text-align: center;
+	padding: 0 16px;
+
+
+}
+.img,.message,.author,.work{
+	position: relative;
+	top: 35px;
+}
+#card1:hover,#card2:hover,#card3:hover{
+	box-shadow: 5px 5px 2px #f5f6fb;
+}
+#right{
+	
+	background-image: url(https://mobirise.com/extensions/organicamp/assets/images/19.jpg);
+	background-size: cover;
+}
+#left{
+	
+	background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+	background-size: cover;
+}
+#section5{
+	height: 100vh;
+	width: 100vw;
+	display: grid;
+	grid-template-columns: 70% 30%;
+}
+#left {
+	display: grid;
+	grid-template-rows: 18% 22% 10% 12%;
+	
+	padding:0 20%;
+	padding-top: 40%;
+
+}
+#left button{
+	background-color:  #f69dad;
+	border: 0;
+	padding: 5% 10%;
+	color: white;
+}
+#left input{
+	height: 60%;
+	padding: 0 10px;
+	border: 0;
+	width: 90%;
+	
+}
+#left p:first-of-type{
+	font-family:  'Poppins', sans-serif;
+	font-size:  44px;
+	font-weight:  600;
+}
+#left p:last-of-type{
+	font-family:  'Poppins', sans-serif;
+	font-size:  16px;
+	font-weight:  500;
+	color:  #8b8b99;
+	letter-spacing:  0.5px;
+
+}
+#left button:hover{
+	background-color: rgba(255,255,255,0);
+	color:  #f69dad;
+	border: 1px solid  #f69dad;
+
+
+}
+#section6{
+	width: 100vw;
+
+	display: grid;
+	grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6% ;
+	padding: 70px 0;
+
+	
+	background-color: rgba(7,234,173,0.1);
+
+
+
+}
+#nothing1,#nothing2{
+	width: 100px;
+}
+#section6 div{
+	text-align: center;
+}
+#section6 div p:first-of-type{
+
+	font-size:  44px;
+	font-weight:  600;
+}
+#section6 div{
+	display: grid;
+	grid-template-rows:40% 20%;
+
+}
+#section6 div p:last-of-type{
+	color:rgba(7,234,173,1);
+
+	font-family:  'Poppins', sans-serif;
+	font-size:  16px;
+	font-weight:  500;
+	
+	letter-spacing:  0.5px;
+}
+#section7{
+	width: 100vw;
+	height: 40vh;
+	display: grid;
+	padding-top: 10px;
+	grid-template-rows:10% 40% 50%;
+	text-align: center;
+	margin-bottom: 30%;
+
+}
+#section7 div:first-of-type p{
+	font-family:  'Poppins', sans-serif;
+	font-size:  40px;
+	
+	color: #869692;
+
+
+}
+#section7 div:nth-of-type(2) p{
+	font-size: 100px;
+	position: relative;
+	bottom: 130px;
+	color: rgba(224,154,75,0.4);
+
+}
+#section8{
+	width: 100vh;
+	height: 80vh;
+	display: grid;
+	grid-template-columns:auto 80% 80% auto;
+	margin: 130px;
+
+
+	
+}
+#em1,#em2{
+	width: 10px;
+}
+.style{
+	color:  #91ac41;
+	font-size:  20px;
+	font-family:  'Caveat', cursive;
+	position: relative;
+	top: 40px;
+}
+.large{
+	font-family:  'Poppins', sans-serif;
+	font-size: 44px;
+	font-weight: 600;
+}
+.medium{
+	font-family:  'Poppins', sans-serif;
+	font-size:  24px;
+	font-weight:  600;
+	position: relative;
+	bottom: 10px;
+	
+}
+.small{
+	font-family:  'Poppins', sans-serif;
+	font-size:  16px;
+	font-weight:  500;
+	color:  #8b8b99;
+	letter-spacing:  0.5px;
+	line-height: 1.5;
+	position: relative;
+	bottom: 20px;
+
+}
+#right1 input{
+	height: 40px;
+	margin-bottom: 20px;
+	width: 80%;
+	
+}
+#right1 textarea{
+	margin-bottom: 20px;
+	height:60px;
+	width: 80%;
+	
+}
+
+
+#right1 form{
+	position: relative;
+	bottom: 30px;
+
+
+}
+#right1 button{
+	font-family: 'Poppins', sans-serif;
+	font-size:  12px;
+	font-weight:  600;
+	color:  white;
+	background-color:  rgb(170, 210, 54);
+	padding:  9px 34px;
+	border-radius:  4px;
+	border: 0;
+}
+#a,#b{
+	position: relative;
+	bottom: 35px;
+}
+footer{
+	background-color: black;
+	color: white;
+	height: 10vh;
+	text-align: center;
+
+
+}
+footer p{
+	position: relative;
+	top: 30%;
+}
